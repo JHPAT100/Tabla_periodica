@@ -9,9 +9,11 @@
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:textAlignment="center"
         android:gravity="center"
-        tools:ignore="MissingConstraints">
+        android:textAlignment="center"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="393dp">
 
         <TableRow
             android:layout_width="match_parent"
@@ -159,16 +161,19 @@
             android:gravity="center">
 
             <TextView
-                android:textAlignment="center"
                 android:layout_width="@dimen/width_t"
                 android:layout_height="@dimen/height_t"
                 android:text="1"
-                android:textSize="@dimen/Text_size"
-                />
+                android:textAlignment="center"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="H"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <TextView
                 android:layout_width="@dimen/width"
@@ -236,7 +241,11 @@
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="He"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
         </TableRow>
 
         <TableRow
@@ -253,11 +262,19 @@
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Li"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Be"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <TextView
                 android:layout_width="@dimen/width"
@@ -296,32 +313,56 @@
                 android:layout_height="@dimen/height" />
 
             <TextView
-                android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
-
-            <Button
-                android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
-
-            <Button
-                android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
-
-            <Button
                 android:layout_width="@dimen/width"
                 android:layout_height="@dimen/height" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="B"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="C"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="N"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
+
+            <Button
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height"
+                android:text="O"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
+
+            <Button
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height"
+                android:text="F"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
+
+            <Button
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height"
+                android:text="Ne"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
         </TableRow>
 
@@ -331,20 +372,27 @@
             android:gravity="center">
 
             <TextView
-                android:textAlignment="center"
                 android:layout_width="@dimen/width_t"
                 android:layout_height="@dimen/height_t"
                 android:text="3"
-                android:textSize="@dimen/Text_size"
-                />
+                android:textAlignment="center"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Na"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Mg"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <TextView
                 android:layout_width="@dimen/width"
@@ -383,32 +431,56 @@
                 android:layout_height="@dimen/height" />
 
             <TextView
-                android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
-
-            <Button
-                android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
-
-            <Button
-                android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
-
-            <Button
                 android:layout_width="@dimen/width"
                 android:layout_height="@dimen/height" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Al"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Si"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="P"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
+
+            <Button
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height"
+                android:text="S"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
+
+            <Button
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height"
+                android:text="Cl"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
+
+            <Button
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height"
+                android:text="Ar"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
         </TableRow>
 
@@ -418,84 +490,155 @@
             android:gravity="center">
 
             <TextView
-                android:textAlignment="center"
                 android:layout_width="@dimen/width_t"
                 android:layout_height="@dimen/height_t"
                 android:text="4"
-                android:textSize="@dimen/Text_size"
-                />
+                android:textAlignment="center"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="K"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Ca"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Sc"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Ti"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="V"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Cr"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Mn"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Fe"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Co"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Ni"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Cu"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Zn"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Ga"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Ge"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="As"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Se"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Br"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Kr"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
         </TableRow>
 
@@ -505,84 +648,155 @@
             android:gravity="center">
 
             <TextView
-                android:textAlignment="center"
                 android:layout_width="@dimen/width_t"
                 android:layout_height="@dimen/height_t"
                 android:text="5"
-                android:textSize="@dimen/Text_size"
-                />
+                android:textAlignment="center"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Rb"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Sr"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Y"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Zr"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Nb"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size_f" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Mo"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Tc"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Ru"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Rh"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Pd"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Ag"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Cd"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="In"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Sn"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Sb"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Te"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="I"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:text="Xe"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size" />
 
         </TableRow>
 
@@ -592,84 +806,155 @@
             android:gravity="center">
 
             <TextView
-                android:textAlignment="center"
                 android:layout_width="@dimen/width_t"
                 android:layout_height="@dimen/height_t"
                 android:text="6"
+                android:textAlignment="center"
+                android:textSize="@dimen/Text_size" />
+
+            <Button
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
                 android:textSize="@dimen/Text_size"
-                />
+                android:text="Cs"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Ba"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size_l"
+                android:text="La-Lu"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Hf"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Ta"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="W"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Re"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Os"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Ir"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Pt"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Au"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Hg"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Ti"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Pb"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Bi"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Po"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="At"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
-
-            <Button
-                android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Rn"/>
 
         </TableRow>
 
@@ -679,84 +964,155 @@
             android:gravity="center">
 
             <TextView
-                android:textAlignment="center"
                 android:layout_width="@dimen/width_t"
                 android:layout_height="@dimen/height_t"
                 android:text="7"
+                android:textAlignment="center"
+                android:textSize="@dimen/Text_size" />
+
+            <Button
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
                 android:textSize="@dimen/Text_size"
-                />
+                android:text="Fr"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Ra"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size_l"
+                android:text="Ac-Lr"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Rf"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Db"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Sg"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Bh"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Hs"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Mt"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Ds"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Rg"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Cn"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size_f"
+                android:text="Nh"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Fl"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Mc"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Lv"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Ts"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
-
-            <Button
-                android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Og"/>
 
         </TableRow>
 
@@ -777,79 +1133,138 @@
             android:gravity="center">
 
             <TextView
-                android:textAlignment="center"
                 android:layout_width="@dimen/width_t"
                 android:layout_height="@dimen/height_t"
+                android:textAlignment="center"
+                android:textSize="@dimen/Text_size" />
+
+            <TextView
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height" />
+
+            <TextView
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height" />
+
+            <Button
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
                 android:textSize="@dimen/Text_size"
-                />
-
-            <TextView
-                android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
-
-            <TextView
-                android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:text="La"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Ce"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Pr"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size_f"
+                android:text="Nd"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Pm"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Sm"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Eu"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Gd"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Tb"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Dy"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Ho"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Er"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Tm"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Yb"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
-
-            <Button
-                android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Lu"/>
 
         </TableRow>
 
@@ -859,79 +1274,138 @@
             android:gravity="center">
 
             <TextView
-                android:textAlignment="center"
                 android:layout_width="@dimen/width_t"
                 android:layout_height="@dimen/height_t"
+                android:textAlignment="center"
+                android:textSize="@dimen/Text_size" />
+
+            <TextView
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height" />
+
+            <TextView
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height" />
+
+            <Button
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
                 android:textSize="@dimen/Text_size"
-                />
-
-            <TextView
-                android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
-
-            <TextView
-                android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:text="Ac"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Th"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Pa"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="U"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Np"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Pu"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Am"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Cm"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Bk"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Cf"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Es"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Fm"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size_fa"
+                android:text="Md"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="No"/>
 
             <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
-
-            <Button
-                android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:textAlignment="gravity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/Text_size"
+                android:text="Lr"/>
 
         </TableRow>
 
