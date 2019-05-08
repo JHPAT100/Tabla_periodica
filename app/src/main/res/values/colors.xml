@@ -3,4 +3,15 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    //colores de la tabla
+    <color name="No_metales">#8BC34A</color>
+    <color name="Metales_alcalinos">#FF5722</color>
+    <color name="Metales_alcalinoterreos">#FFC107</color>
+    <color name="Gases_nobles">#3F51B5</color>
+    <color name="Metaloides">#009688</color>
+    <color name="Halogenos">#00BCD4</color>
+    <color name="Metales_transicion">#E91E63</color>
+    <color name="Metales_bloqueP">#607D8B</color>
+    <color name="Lantanidos">#FF5252</color>
+    <color name="Actinidos">#673AB7</color>
 </resources>
