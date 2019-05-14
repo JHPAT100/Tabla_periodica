@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".prueba"></activity>
+        <activity android:name=".MainActivity" />
         <activity
             android:name=".tabla_periodica"
             android:screenOrientation="landscape">
