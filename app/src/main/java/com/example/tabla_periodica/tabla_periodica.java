@@ -25,6 +25,6 @@ public class tabla_periodica extends AppCompatActivity {
         }
 
     }
-
+//hola
 }
 
