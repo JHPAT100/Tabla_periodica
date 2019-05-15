@@ -21,10 +21,10 @@ public class tabla_periodica extends AppCompatActivity {
         for (int i=1; i<15; i++){
             int buttonId = this.getResources().getIdentifier("b_"+i, "id", this.getPackageName());
             Button btn = (Button)findViewById(buttonId);
-
+            
         }
 
     }
-//hola
+
 }
 
