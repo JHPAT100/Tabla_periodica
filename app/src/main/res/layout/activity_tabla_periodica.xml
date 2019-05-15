@@ -13,7 +13,8 @@
         android:textAlignment="center"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="393dp">
+        tools:layout_editor_absoluteY="393dp"
+        android:id="@+id/t">
 
         <TableRow
             android:layout_width="match_parent"
