@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFB9B6BD">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="431dp"
+        android:layout_height="328dp"
+        android:background="#ADA7C2"
+        android:backgroundTint="#B5FAFAFA"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="158dp"
+        android:layout_height="280dp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="218dp"
+        android:layout_height="23dp"
+        android:text="PROPIEDADES ATÓMICAS"
+        android:textAllCaps="true"
+        android:textColor="#D3474141"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="335dp"
+        android:layout_height="24dp"
+        android:text="Masa:"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="224dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="335dp"
+        android:layout_height="24dp"
+        android:text="Símbolo:"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="335dp"
+        android:layout_height="24dp"
+        android:text="Nombre:"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="335dp"
+        android:layout_height="24dp"
+        android:text="Grupo:"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="335dp"
+        android:layout_height="24dp"
+        android:text="Bloque:"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="335dp"
+        android:layout_height="24dp"
+        android:text="Número atómico:"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="335dp"
+        android:layout_height="24dp"
+        android:text="Protones:"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="335dp"
+        android:layout_height="24dp"
+        android:text="Electrones:"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="335dp"
+        android:layout_height="24dp"
+        android:text="Neutrones:"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="335dp"
+        android:layout_height="24dp"
+        android:text="Valencia:"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+</android.support.constraint.ConstraintLayout>
