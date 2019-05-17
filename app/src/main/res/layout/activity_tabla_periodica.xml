@@ -1006,7 +1006,6 @@
                 android:textSize="@dimen/Text_size_l"
                 android:text="La-Lu"
                 android:background="@drawable/redondeo_boton_5"
-                android:onClick="onClick"
                 android:id="@+id/bm_1"/>
 
             <Button
@@ -1218,8 +1217,7 @@
                 android:textSize="@dimen/Text_size_l"
                 android:text="Ac-Lr"
                 android:background="@drawable/redondeo_boton_6"
-                android:onClick="onClick"
-                android:id="@+id/bm_2"/>
+                android:id="@+id/bm_2" />
 
             <Button
                 android:layout_width="@dimen/width"
@@ -1596,9 +1594,12 @@
                 android:textAlignment="center"
                 android:textSize="@dimen/Text_size" />
 
-            <TextView
+            <Button
                 android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height" />
+                android:layout_height="@dimen/height"
+                android:background="@drawable/icono_b"
+                android:onClick="onClick_1"/>
+
 
             <TextView
                 android:layout_width="@dimen/width"

@@ -14,4 +14,5 @@
     <color name="Metales_bloqueP">#607D8B</color>
     <color name="Lantanidos">#FF5252</color>
     <color name="Actinidos">#673AB7</color>
+    <color name="colorLinea">#FFFFFF</color>
 </resources>

@@ -24,6 +24,12 @@ public class tabla_periodica extends AppCompatActivity {
         startActivity(onClick);
 
     }
+    public void onClick_1(View view){
+        btn=findViewById(view.getId());
+        Intent onClick_1=new Intent(this,busqueda.class);
+        startActivity(onClick_1);
+
+    }
 
 }
 
