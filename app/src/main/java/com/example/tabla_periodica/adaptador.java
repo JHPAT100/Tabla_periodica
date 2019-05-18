@@ -11,6 +11,8 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 public class adaptador extends BaseAdapter {
+
+    
     private static LayoutInflater inflater = null;
     Context contexto;
     String[][] elemento;
@@ -53,4 +55,5 @@ public class adaptador extends BaseAdapter {
 
         return vista;
     }
+
 }

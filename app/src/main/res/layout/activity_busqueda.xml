@@ -10,7 +10,7 @@
         android:id="@+id/lista_1"
         android:layout_width="689dp"
         android:layout_height="305dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -19,15 +19,15 @@
         app:layout_constraintVertical_bias="0.51" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/busqueda"
         android:layout_width="match_parent"
-        android:layout_height="34dp"
+        android:layout_height="37dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:ems="10"
-        android:hint=""
+        android:hint="Igrese los parametros para la busqueda"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -52,7 +52,7 @@
         android:background="@color/colorLinea"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.16000003"
+        app:layout_constraintVertical_bias="0.145"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp" />
 
