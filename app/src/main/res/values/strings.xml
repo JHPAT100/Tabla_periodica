@@ -7,5 +7,10 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_tabla_periodica_con_menu">tabla_periodica_con_menu</string>
+    <string name="title_activity_tabla_periodica">tabla_periodica</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
