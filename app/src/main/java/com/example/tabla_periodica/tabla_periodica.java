@@ -16,10 +16,14 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ListView;
 
 public class tabla_periodica extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener ,tabla.OnFragmentInteractionListener{
 Button btn;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +40,7 @@ Button btn;
         getSupportFragmentManager().beginTransaction().add(R.id.content_main,fragment).commit();
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
     }
 
     @Override
@@ -63,19 +68,25 @@ Button btn;
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
+        Fragment miFragment=null;
+        boolean fragmentS=false;
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        if (id == R.id.nav_b) {
 
-        } else if (id == R.id.nav_slideshow) {
+            Intent onClick_1=new Intent(this,busqueda.class);
+            startActivity(onClick_1);
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_b_1) {
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.nav_b_2) {
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.nav_b_3) {
 
+        } else if (id == R.id.nav_b_4) {
+
+        }
+        if(fragmentS==true){
+            getSupportFragmentManager().beginTransaction().replace(R.id.content_main, miFragment).commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -100,4 +111,5 @@ Button btn;
         startActivity(onClick_1);
 
     }
+
 }

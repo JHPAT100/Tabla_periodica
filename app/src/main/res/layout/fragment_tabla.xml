@@ -1593,11 +1593,11 @@
                 android:textAlignment="center"
                 android:textSize="@dimen/Text_size" />
 
-            <Button
-                android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height"
-                android:background="@drawable/icono_b"
-                android:onClick="onClick_1"/>
+            <TextView
+                android:layout_width="@dimen/width_t"
+                android:layout_height="@dimen/height_t"
+                android:textAlignment="center"
+                android:textSize="@dimen/Text_size" />
 
 
             <TextView
