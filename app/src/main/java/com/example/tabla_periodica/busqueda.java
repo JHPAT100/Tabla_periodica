@@ -21,6 +21,7 @@ public class busqueda extends AppCompatActivity {
 //Nombre,descripción,simbolo,grupo,bloque,masa,protones,electrones,neutrones,valencia,
 
             //1-45
+            //otro intento
                       {"Hidrógeno","El hidrógeno es el elemento químico más simple (formado solamente por un protón y un electrón) y más abundante del universo.","1","H","IA","S","1.0079(g/mol)"," 1"," 1","0"," (-1), +1"},
 
                       {"Helio","El helio es una sustancia de la naturaleza, concretamente un gas noble cuyo símbolo es He y que debe su nombre al Sol, que en griego se denomina helios.","2","He","VIIIA","S","4.0026(g/mol)"," 2","2","2","0"},
