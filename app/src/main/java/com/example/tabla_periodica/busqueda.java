@@ -172,7 +172,7 @@ public class busqueda extends AppCompatActivity {
                     {"Oberón","El oberón o ununoctio (conocido anteriormente como eka-radón); nombre sistemático temporal dado por la Unión Internacional de Química Pura y Aplicada al elemento sintético transactínido","On","7","f","288g/mol","118","--","169","4,7"}
     };
 
-    //falta los elementos 94, 95, 106,112,113, 114, 115, 116,117, 118, 119 al 123
+    //Se agregaron todas las imagenes
     int[] datosImg = {R.drawable.icono_b, R.drawable.logo,R.drawable.e_46,R.drawable.e_47,R.drawable.e_48,
 
             R.drawable.e_49,R.drawable.e_50,R.drawable.e_51,R.drawable.e_52,R.drawable.e_53,R.drawable.e_54,
@@ -189,13 +189,15 @@ public class busqueda extends AppCompatActivity {
 
             R.drawable.e_85,R.drawable.e_86,R.drawable.e_87,R.drawable.e_88,R.drawable.e_89,R.drawable.e_90,
 
-            R.drawable.e_91,R.drawable.uranio,R.drawable.neptunio,R.drawable.curio,R.drawable.berkelio,
+            R.drawable.e_91,R.drawable.uranio,R.drawable.neptunio,R.drawable.plutonio,R.drawable.amonio,R.drawable.curio,R.drawable.berkelio,
 
             R.drawable.californio,R.drawable.einstenio,R.drawable.fermio,R.drawable.mendelevio,R.drawable.nobelio,
 
-            R.drawable.laurencio,R.drawable.ruthefordio,R.drawable.dubnio,R.drawable.bohrio,R.drawable.hassio,
+            R.drawable.laurencio,R.drawable.ruthefordio,R.drawable.dubnio,R.drawable.seaborgio,R.drawable.bohrio,R.drawable.hassio,
 
-            R.drawable.meitnerio,R.drawable.darmstadtio,R.drawable.roentgenio
+            R.drawable.meitnerio,R.drawable.darmstadtio,R.drawable.roentgenio,R.drawable.darwanizo,R.drawable.tustrano,R.drawable.erristeneo,
+
+            R.drawable.merchel,R.drawable.nectarten,R.drawable.efelio,R.drawable.oberon
     };
 
     protected void onCreate(Bundle savedInstanceState) {
