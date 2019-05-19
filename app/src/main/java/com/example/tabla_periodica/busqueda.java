@@ -22,6 +22,11 @@ public class busqueda extends AppCompatActivity {
             {"Paladio", "Hola este elemento esta vacio", "46", "Pd", "VIIIB", "d", "106.42(g/mol)", "46", "46", "60", "+2, +4, +6"},
             {"Plata", "Hola este elemento esta vacio","47", "Ag", "IB", "d", "107.868(g/mol)", "47", "47", "61", "+1, +2"},
 
+
+
+
+            //97-118
+
     };
     int[] datosImg = {R.drawable.icono_b, R.drawable.logo,};
 
