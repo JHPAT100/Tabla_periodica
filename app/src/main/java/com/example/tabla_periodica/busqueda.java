@@ -20,6 +20,97 @@ public class busqueda extends AppCompatActivity {
     String elementos[][] = {
 //Nombre,descripción,simbolo,grupo,bloque,masa,protones,electrones,neutrones,valencia,
 
+            //1-45
+                      {"Hidrógeno","El hidrógeno es el elemento químico más simple (formado solamente por un protón y un electrón) y más abundante del universo.","1","H","IA","S","1.0079(g/mol)"," 1"," 1","0"," (-1), +1"},
+
+                      {"Helio","El helio es una sustancia de la naturaleza, concretamente un gas noble cuyo símbolo es He y que debe su nombre al Sol, que en griego se denomina helios.","2","He","VIIIA","S","4.0026(g/mol)"," 2","2","2","0"},
+
+                      {"Litio","es un metal alcalino blanco plateado, blando, dúctil y muy ligero, se corroe rápidamente al contacto con el aire y no existe en estado libre en la naturaleza, sino solamente en compuestos; se utiliza en la fabricación de acero, en esmaltes y lubricantes, y el carbonato de litio, en medicina.","3","Li","IA","S","6.941(g/mol)","3","3","4","+1"},
+
+                      {"Berilio","es un metal de color gris, muy ligero, que se obtiene del berilo y se usa en la fabricación de aviones y tubos de rayos X, en los reactores nucleares y en computadoras, láser, televisión, etc.","4","Be","IIA","S","9.0121(g/mol)","4","4","5","+2"},
+
+                      {"Boro","El compuesto de boro de mayor importancia económica es el bórax que se emplea en grandes cantidades en la fabricación de fibra de vidrio aislante y perborato de sodio","5","B","IIIA","P","10.811(g/mol)"," 5","5","6"," -3, +3"},
+
+                      {"Carbono","es un no metal sólido que es el componente fundamental de los compuestos orgánicos y tiene la propiedad de enlazarse con otros átomos de carbono y otras sustancias para formar un número casi infinito de compuestos","6","C","IVA","P","12.0107(g/mol)","6","6","6","(+2),+4"},
+
+                      {"Nitrógeno"," es un gas incoloro, inodoro e inerte, compone cuatro quintos del volumen del aire de la atmósfera y se usa para sintetizar amoníaco y otros productos, para fabricar explosivos, como refrigerante y como atmósfera inerte para conservar ciertos productos.","7","N","VA","P","14.0067(g/mol)","7","7","7","-3,-2,-1,(+1),+2,+3,+4,+5"},
+
+                      {"Oxígeno"," es un gas incoloro e inodoro que se encuentra en el aire, en el agua, en los seres vivos y en la mayor parte de los compuestos orgánicos e inorgánicos; es esencial en la respiración y en la combustión","8","O","VIA","P","15.9994(g/mol)","8","8","8","-2"},
+
+                      {"Flúor","Es un gas a temperatura ambiente, de color verde pálido, formado por moléculas diatómicas F₂. Es el más electronegativo y reactivo de todos los elementos.","9","F","VIIA","P","18.9984(g/mol)","9","9","10","-1,+1"},
+
+                      {"Neón","Es un gas noble, incoloro, prácticamente inerte, presente en trazas en el aire, pero muy abundante en el universo, que proporciona un tono rojizo (no es un color) característico a la luz de las lámparas fluorescentes en las que se emplea.","10","Ne","VIIA","P","20.1797(g/mol)","10","10","10","0"},
+
+                      {"Sodio"," Es un metal alcalino blando, untuoso, de color plateado, muy abundante en la naturaleza, encontrándose en la sal marina y el mineral halita","11","Na","IA","S","22.9897(g/mol)","11","11","12","+1"},
+
+                      {"Magnesio","es un metal alcalino de color blanco plateado, maleable y ligero, que existe en la naturaleza solamente en combinación química con otros elementos y es un componente esencial del tejido animal y vegetal; se usa en flashes fotográficos, señales luminosas, etc.","12","Mg","IIA","S","24.305(g/mol)","12","12","12","+2"},
+
+                      {"Aluminio","Se trata de un metal no ferromagnético. Es el tercer elemento más común encontrado en la corteza terrestre.","13","Al","IIIA","P","26.9815(g/mol)","13","13","14","+3"},
+
+                      {"Silicio","s un no metal sólido, de color amarillento, que se extrae del cuarzo y otros minerales y es el segundo elemento más abundante en la Tierra después del oxígeno; se utiliza en la industria del acero como componente de las aleaciones de silicio y acero, en la fabricación de transistores y circuitos integrados","14","Si","IVA","P","28.0855(g/mol)","14","14","14","-4,(+2),+4"},
+
+                      {"Fósforo","La principal función del fósforo es la formación de huesos y dientes. Este cumple un papel importante en la forma como el cuerpo usa los carbohidratos y las grasas. También es necesario para que el cuerpo produzca proteína para el crecimiento, conservación y reparación de células y tejidos","15","P","VA","P","30.9737(g/mol)","15","15","16","-3,+1,+3,+5"},
+
+                      {"Azufre","es un no metal de color amarillo pálido y olor desagradable, que se encuentra en la naturaleza tanto en forma libre como combinado con otros elementos; se usa para la obtención de ácido sulfúrico, para fabricar fósforos, caucho vulcanizado, tintes, pólvora, fungicidas, en fotografía para el fijado de negativos y positivos, y, en medicina para la elaboración de sulfamidas y pomadas tópicas.","16","S","VIA","P","32.065(g/mol)","16","16","16","-2,+2,+4,+6"},
+
+                      {"Cloro"," El cloro existe como un gas amarillo-verdoso a temperaturas y presiones ordinarias. ... El cloro es uno de los cuatro elementos químicos estrechamente relacionados que han sido llamados halógenos.","17","Cl","VIIA","P","35.453(g/mol)","17","17","18","-1,+1,(+2),+3,(+4),+5,+7"},
+
+                      {"Argón","El argón es el tercer miembro del grupo 0 en la tabla periódica. Los elementos gaseosos de este grupo se llaman gases nobles, inertes o raros, aunque en realidad el argón no es raro.","18","Ar","VIIIA","P","39.948(g/mol)","18","18","22","0"},
+
+                      {"Potasio","Ocupa un lugar intermedio dentro de la familia de los metales alcalinos después del sodio y antes del rubidio. Este metal reactivo es ligero y blando. ... El carbonato de potasio es también un material de partida importante en la industria del vidrio.","19","K","IA","S","39.0983(g/mol)","19","19","20","+1"},
+
+                      {"Calcio"," Los compuestos de calcio constituyen 3.64% de la corteza terrestre. ... Al igual que el berilio y el aluminio, pero a diferencia de los metales alcalinos, no causa quemaduras sobre la piel.","20","Ca","IIA","S","40.078(g/mol)","20","20","20","+2"},
+
+                      {"Escandio","Es un metal de transición que se encuentra en minerales de Escandinavia y que se clasifica con frecuencia entre los lantánidos por sus similitudes con ellos.","21","Sc","IIIB","D","44.9559(g/mol)","21","21","24","+3"},
+
+                      {"Titanio"," Es un metal de transición de color gris, baja densidad y gran dureza. Es muy resistente a la corrosión por agua del mar, agua regia y cloro.","22","Ti","IVB","D","47.867(g/mol)","22","22","26"," +2,+3,+4"},
+
+                      {"Vanadio"," Es un metal dúctil, blando y poco abundante. Se encuentra en distintos minerales y se emplea principalmente en algunas aleaciones.","23","V","VB","D","50.9415(g/mol)","23","23","28","+2,+3,+4,+5"},
+
+                      {"Cromo"," Es un metal que se emplea especialmente en metalurgia. Su nombre cromo se debe a los distintos colores que presentan sus compuestos.","24","Cr","VIB","D","51.9961(g/mol)","24","24","28","+2,+3,+6"},
+
+                      {"Manganeso","Se encuentra como elemento libre en la naturaleza, a menudo en combinación con el hierro y en muchos minerales.","25","Mn","VIIB","D","54.938(g/mol)","25","25","30","+2,(+3),+4,(+6),+7"},
+
+                      {"Hierro","El hierro es el cuarto elemento más abundante en la corteza terrestre (5%). Es un metal maleable, tenaz, de color gres plateado y magnético","26","Fe","VIIIB","D","55.845(g/mol)","26","26","30","+2,+3,(+4),(+6)"},
+
+                      {"Cobalto","El cobalto aparece en la tabla periódica con el símbolo Co. Su número atómico es el 27 y fue reconocido como elemento básico entre 1730 y 1735, por el químico y minerólogo sueco Georg Brandt. Una cualidad de este mineral, es que es buen conductor del calor y la electricidad.","27","Co","VIIIB","D","58.9331(g/mol)","27","27","32","+2,+3,(+4)"},
+
+                      {"Níquel","En forma comercial, el níquel se usa para forma aleaciones con el acero inoxidable y algunos otros metales que son resistentes a la corrosión.","28","Ni","VIIIB","D","58.6934(g/mol)","28","28","31","(+1),+2,(+3),+(4)"},
+
+                      {"Cobre","uno de los metales de transición e importante metal no ferroso.","29","Cu","IB","D","63.546(g/mol)","29","29","35","+1,+2,(+3)"},
+
+                      {"Zinc","Es un metal maleable, dúctil y de color gris. Se conocen 15 isótopos, cinco de los cuales son estables y tienen masas atómicas de 64, 66, 67, 68 y 70.","30","Zn","IIB","D","65.409(g/mol)","30","30","35","+2"},
+
+                      {"Galio","Tiene un gran intervalo de temperatura en el estado líquido, y se ha recomendado su uso en termómetros de alta temperatura y manómetros. ... El galio es semejante químicamente al aluminio.","31","Ga","IIIA","P","69.723(g/mol)","31","31","39","(+2),+3"},
+
+                      {"Germanio","l mundo que rodea al ser humano se encuentra conformado por elementos tangibles e intangibles, es decir, por cosas que se pueden ver y viceversa. La matemática conforma a todo lo cuantificable, la física se encarga de todo lo que se toca y se mueve, mientras que la química se encuentra en la composición de absolutamente todo lo que es visible.","32","Ge","IVA","P","72.64(g/mol)","32","32","41","-4,+2,+4"},
+
+                      {"Arsénico","es un elemento químico de la tabla periódica cuyo símbolo es As y el número atómico es 33. En la tabla periódica de los elementos se encuentra en el quinto grupo principal","33","As","VA","P","74.9216(g/mol)","33","33","42","-3,(+2),+3,+5"},
+
+                      {"Selenio","Selenio. El selenio es un elemento químico, cuyo símbolo es Se, con un número atómico de 34. ... El seleniuro de cadmio es un compuesto semiconductor que se usa en las fotoceldas pues su conductividad eléctrica cambia según la intensidad de la luz a la que se expone.","34","Se","VIA","P","78.96(g/mol)","34","34","45","-2,(+2),+4,+6"},
+
+                      {"Bromo","El bromo a temperatura ambiente es un líquido rojo, volátil y denso. Su reactividad es intermedia entre el cloro y el yodo","35","Br","VIIA","P","79.904(g/mol)","35","35","45","-1,+1,(+3),(+4),+5"},
+
+                      {"Kriptón"," El kriptón es uno de los gases nobles. Es un gas incoloro, inodoro e insípido. Su principal aplicación es el llenado de lámparas eléctricas y aparatos electrónicos de varios tipos.","36","Kr","VIIIA","P","83.798(g/mol)","36","36","48","0"},
+
+                      {"Rubidio","El rubidio es un elemento químico de la tabla periódica, su símbolo es el Rb y su número atómico es de 37. Es un metal con características altamente reactivas, su color es blanco plateado y es muy blando. Se encuentra en la naturaleza en estado extremadamente disperso. Usualmente se obtiene de la producción de litio. El rubidio se usa en células fotoeléctricas y para ciertos tipos de catalizadores","37","Rb","IA","S","85.467(g/mol)","37","37","48","+1"},
+
+                      {"Estroncio","El estroncio es el menos abundante de los metales alcalinotérreos. La corteza de la Tierra contiene el 0.042% de estroncio, y este elemento es tan abundante como el cloro y el azufre.","38","Sr","IIA","S","87.62(g/mol)","38","38","50","+2"},
+
+                      {"Itrio","Es un metal plateado de transición, común en los minerales de tierras raras.","39","Y","IIIB","D","88.905(g/mol)","39","39","50","+3"},
+
+                      {"Circonio"," El zirconio es uno de los elementos más abundantes y está ampliamente distribuido en la corteza terrestre. Es muy reactivo químicamente y sólo se halla combinado.","40","Zr","IVB","D","91.224(g/mol)","40","40","51","(+2),(+3),+4"},
+
+                      {"Niobio","Es un metal de transición dúctil, gris, blando y poco abundante. Se encuentra en el mineral niobita, también llamado columbita, y se utiliza en aleaciones","41","Nb","VB","D","92.906(g/mol)","41","41","52","(+2),+3,(+4),+5"},
+
+                      {"Molibdeno","El molibdeno es un metal esencial desde el punto de vista biológico y se utiliza sobre todo en aceros aleados.","42","Mo","VIB","D","95.94(g/mol)","42","42","54","(+2),+3,(+4),(+5),+6"},
+
+                      {"Tecnecio","El tecnecio es el más ligero de los elementos químicos que no cuentan con isótopos estables y el primer elemento sintético que se encuentra en la tabla periódica. Su número atómico es el 43 y su símbolo es Tc.","43","Tc","VIIIB","D","98.906(g/mol)","43","43","55","+6"},
+
+                      {"Rutenio","Es un metal de transición, poco abundante, del grupo del platino. Se encuentra normalmente en minas de platino y se emplea como catalizador en algunas aleaciones de platino","44","Ru","VIIIB","D","101.07(g/mol)","44","44","58","(+2),+3,+4,(+6),(+7),+8"},
+
+                      {"Rodio"," Es un metal de transición, poco abundante, del grupo del platino. Se encuentra normalmente en minas de platino y se emplea como catalizador en algunas aleaciones de platino.","45","Rh","VIIIB","D","102.905(g/mol)","45","45","57","(+2),(+3),+4,(+6)"},
+
              //46-91
                       {"Paladio","Es un raro y brillante metal de color plateado, fue nombrado así por el asteroide Pallas.","46","Pd","VIIIB","d","106.42(g/mol)","46","46","60","+2, +4, +6"},
 
@@ -173,7 +264,25 @@ public class busqueda extends AppCompatActivity {
     };
 
     //Se agregaron todas las imagenes
-    int[] datosImg = {R.drawable.icono_b, R.drawable.logo,R.drawable.e_46,R.drawable.e_47,R.drawable.e_48,
+    int[] datosImg = {R.drawable.icono_b, R.drawable.logo ,R.drawable.e_1 ,R.drawable.e_2, R.drawable.e_3,
+
+            R.drawable.e_4, R.drawable.e_5, R.drawable.e_6, R.drawable.e_7, R.drawable.e_8, R.drawable.e_9,
+
+            R.drawable.e_10, R.drawable.e_11, R.drawable.e_12, R.drawable.e_13, R.drawable.e_14, R.drawable.e_15,
+
+            R.drawable.e_16, R.drawable.e_17, R.drawable.e_18, R.drawable.e_19, R.drawable.e_20, R.drawable.e_21,
+
+            R.drawable.e_22, R.drawable.e_23, R.drawable.e_24, R.drawable.e_25, R.drawable.e_26, R.drawable.e_27,
+
+            R.drawable.e_28,
+
+            R.drawable.e_29, R.drawable.e_30, R.drawable.e_31, R.drawable.e_32, R.drawable.e_33, R.drawable.e_34,
+
+            R.drawable.e_35, R.drawable.e_36, R.drawable.e_37, R.drawable.e_38, R.drawable.e_39, R.drawable.e_40,
+
+            R.drawable.e_41, R.drawable.e_42, R.drawable.e_43, R.drawable.e_44, R.drawable.e_45, R.drawable.e_46,
+
+            R.drawable.e_47,R.drawable.e_48,
 
             R.drawable.e_49,R.drawable.e_50,R.drawable.e_51,R.drawable.e_52,R.drawable.e_53,R.drawable.e_54,
 
