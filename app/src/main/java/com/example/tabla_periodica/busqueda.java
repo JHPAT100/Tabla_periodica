@@ -123,7 +123,7 @@ public class busqueda extends AppCompatActivity {
 
                     {"Plutonio","s un metal radiactivo, de color plateado, muy tóxico debido a su alta radiactividad, que se encuentra en cantidades muy pequeñas en las menas de uranio","Pu","7","f","242g/mol","94","--","145","3,4,5,6"},
 
-                    {"Amonio","El amonio es un catión poliatómico cargado positivamente","Am","7","f","243g/mol","95","--","146","3,4,5,6"},
+                    {"Amerecio","El amerecio es un catión poliatómico cargado positivamente","Am","7","f","243g/mol","95","--","146","3,4,5,6"},
 
                     {"Curio","Se produce bombardeando plutonio con partículas alfa.El curio no existe en el ambiente terrestre, pero puede producirse en forma artificial.","Cm","7","f","247g/mol","96","--","147","3"},
 
