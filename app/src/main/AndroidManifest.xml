@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".visorImagen"
+            android:screenOrientation="landscape"></activity>
         <activity
             android:name=".tabla_periodica"
             android:label="@string/title_activity_tabla_periodica"
