@@ -265,7 +265,7 @@ public class busqueda extends AppCompatActivity {
     };
 
     //Se agregaron todas las imagenes
-    int[] datosImg = {R.drawable.icono_b, R.drawable.logo ,R.drawable.e_1 ,R.drawable.e_2, R.drawable.e_3,
+    int[] datosImg = {R.drawable.icono_b, R.drawable.logo, R.drawable.e_1, R.drawable.e_2, R.drawable.e_3,
 
             R.drawable.e_4, R.drawable.e_5, R.drawable.e_6, R.drawable.e_7, R.drawable.e_8, R.drawable.e_9,
 
@@ -281,9 +281,9 @@ public class busqueda extends AppCompatActivity {
 
             R.drawable.e_35, R.drawable.e_36, R.drawable.e_37, R.drawable.e_38, R.drawable.e_39, R.drawable.e_40,
 
-            R.drawable.e_41, R.drawable.e_42, R.drawable.e_43, R.drawable.e_44, R.drawable.e_45, R.drawable.e_46,
+            R.drawable.e_41, R.drawable.e_42, R.drawable.e_43, R.drawable.e_44, R.drawable.e_45,
 
-            R.drawable.e_47,R.drawable.e_48,
+            R.drawable.e_46, R.drawable.e_47,R.drawable.e_48,
 
             R.drawable.e_49,R.drawable.e_50,R.drawable.e_51,R.drawable.e_52,R.drawable.e_53,R.drawable.e_54,
 
