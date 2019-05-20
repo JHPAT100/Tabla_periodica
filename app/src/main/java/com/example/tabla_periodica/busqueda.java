@@ -261,7 +261,7 @@ public class busqueda extends AppCompatActivity {
 
                     {"Efelio","Este nuevo elemento químico fue creado al hacer colisionar isótopos de calcio","El","7","p","285g/mol","117","--","168","2,3,2,1"},
 
-                    {"Oberón","El oberón o ununoctio (conocido anteriormente como eka-radón); nombre sistemático temporal dado por la Unión Internacional de Química Pura y Aplicada al elemento sintético transactínido","On","7","p","288g/mol","118","--","169","4,7"}
+                    {"Oberón","El oberón o ununoctio (conocido anteriormente como eka-radón); nombre sistemático temporal dado por la Unión Internacional de Química Pura y Aplicada al elemento sintético transactínido.","On","7","p","288g/mol","118","--","169","4,7"}
     };
 
     //Se agregaron todas las imagenes
