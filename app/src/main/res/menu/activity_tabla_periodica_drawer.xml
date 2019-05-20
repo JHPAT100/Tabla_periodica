@@ -11,24 +11,30 @@
 
     </group>
 
-    <item android:title="Bloques">
+    <item android:title="Compartir">
         <menu>
             <item
                 android:id="@+id/nav_b_1"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Bloque S" />
+                android:title="Share" />
             <item
                 android:id="@+id/nav_b_2"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Bloque P" />
+                android:title="sanhool@live.com.mx" />
+
+        </menu>
+    </item>
+    <item android:title="Compañia">
+        <menu>
+
             <item
                 android:id="@+id/nav_b_3"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Bloque D" />
+                android:icon="@drawable/icono_c"
+                android:title="System 32" />
             <item
                 android:id="@+id/nav_b_4"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Bloque F" />
+                android:icon="@drawable/icono_t"
+                android:title="Aula 2 Programacion" />
         </menu>
     </item>
 
