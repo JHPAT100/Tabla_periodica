@@ -245,7 +245,7 @@ public class busqueda extends AppCompatActivity {
 
                     {"Meitnerio","El meitnerio (anteriormente llamado unnilenio con símbolo provisional Une o Wolschakio con símbolo Wl al no ser oficial)​​ es un elemento químico","Mt","7","d","266g/mol","109","--","160","--"},
 
-                    {"Darmstadtio","El darmstatio​ (anteriormente llamado ununnilio con símbolo provisional Uun o madveded, madvedevio o medvedio​ con símbolo Mv al no ser oficial)​​ es un elemento químico","Ds","7","d","281g/mol","110","--","161","2,4"},
+                    {"Darmstadtio","El darmstatio​ (anteriormente llamado ununnilio con símbolo provisional Uun o madveded, madvedevio o medvedio​ con símbolo Mv al no ser oficial)​​ es un elemento químico.","Ds","7","d","281g/mol","110","--","161","2,4"},
 
                     {"Roentgenio","También tenía asignado el nombre de plutirio con el símbolo Pl al no ser oficial​. Fue descubierto en 1994 por científicos alemanes en Darmstadt.","Rg","7","d","272g/mol","111","--","162","3,2"},
 
