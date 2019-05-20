@@ -10,12 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
-            android:name=".menu"
-            android:label="@string/title_activity_menu"
-            android:theme="@style/NoActionBar"></activity>
-        <activity android:name=".MainActivity" />
-        <activity
             android:name=".tabla_periodica"
+            android:label="@string/title_activity_tabla_periodica"
             android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,6 +19,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".busqueda"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".prueba"
+            android:screenOrientation="landscape" />
     </application>
 
 </manifest>

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="431dp"
+        android:layout_height="309dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/redondeo"
+        android:backgroundTint="#5A5050"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.91"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/hola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardBackgroundColor="#FF6F00">
+
+        <ImageView
+            android:id="@+id/imagen_f"
+            android:layout_width="158dp"
+            android:layout_height="280dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#696F6F"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.04"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="218dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="HIERRO"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#BAC4C2"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.110000014" />
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.77">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/d_1"
+                android:layout_width="120dp"
+                android:layout_height="24dp"
+                android:text="Masa:"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="555dp"
+                tools:layout_editor_absoluteY="354dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="        " />
+
+            <TextView
+                android:id="@+id/m_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hola" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/d_2"
+                android:layout_width="120dp"
+                android:layout_height="24dp"
+                android:text="Símbolo:"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="        " />
+
+            <TextView
+                android:id="@+id/m_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hola" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/d_3"
+                android:layout_width="120dp"
+                android:layout_height="24dp"
+                android:text="Grupo:"
+                android:textAllCaps="true"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="555dp"
+                tools:layout_editor_absoluteY="354dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="        " />
+
+            <TextView
+                android:id="@+id/m_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hola" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/d_4"
+                android:layout_width="120dp"
+                android:layout_height="24dp"
+                android:text="Bloque:"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="555dp"
+                tools:layout_editor_absoluteY="354dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="        " />
+
+            <TextView
+                android:id="@+id/m_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hola" />
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="120dp"
+                android:layout_height="24dp"
+                android:text="Protones:"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="555dp"
+                tools:layout_editor_absoluteY="354dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="        " />
+
+            <TextView
+                android:id="@+id/m_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hola" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="120dp"
+                android:layout_height="24dp"
+                android:text="Electrones:"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="555dp"
+                tools:layout_editor_absoluteY="354dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="        " />
+
+            <TextView
+                android:id="@+id/m_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hola" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="120dp"
+                android:layout_height="24dp"
+                android:text="Neutrones:"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="555dp"
+                tools:layout_editor_absoluteY="354dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="        " />
+
+            <TextView
+                android:id="@+id/m_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hola" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="120dp"
+                android:layout_height="24dp"
+                android:text="Valencia:"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="555dp"
+                tools:layout_editor_absoluteY="354dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="        " />
+
+            <TextView
+                android:id="@+id/m_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hola" />
+        </TableRow>
+
+
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>
