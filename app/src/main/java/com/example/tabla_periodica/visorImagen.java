@@ -325,6 +325,26 @@ public class visorImagen extends AppCompatActivity {
 
             }
         }
+
+
+        if (tabla_periodica.indetificador == null) {
+
+            for (int i = 0; i < elementos.length; i++) {//filas
+                for (int j = 0; j < elementos[i].length; j++) {//columnas
+
+                        //manejador
+                        imagen.setImageResource(datosImg[busqueda.pos]);
+
+
+
+
+
+                }
+
+            }
+        }
+
+
     }
         //
     }

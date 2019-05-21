@@ -308,6 +308,46 @@ public class prueba extends AppCompatActivity {
         setContentView(R.layout.calificar);
 
 
+
+        if (busqueda.o != null) {
+            TextView nombre = findViewById(R.id.nombre);
+            TextView x1 = findViewById(R.id.m_1);
+            TextView x2 = findViewById(R.id.m_2);
+            TextView x3 = findViewById(R.id.m_3);
+            TextView x4 = findViewById(R.id.m_4);
+            TextView x6 = findViewById(R.id.m_6);
+            TextView x7 = findViewById(R.id.m_7);
+            TextView x8 = findViewById(R.id.m_8);
+            TextView x9 = findViewById(R.id.m_9);
+            ImageView imagen = findViewById(R.id.imagen_f);
+
+            for (int i = 0; i < elementos.length; i++) {//filas
+                for (int j = 0; j < elementos[i].length; j++) {//columnas
+                    if (elementos[i][j].equals(busqueda.x_o)) {
+                        //manejador
+                        int i_1 = j + 1, i_2 = j + 2, i_3 = j + 3;
+                        //manejador
+                        nombre.setText(elementos[i][0] + "\t");
+                        x1.setText(elementos[i][5] + "\t");
+                        x2.setText(elementos[i][2] + "\t");
+                        x3.setText(elementos[i][3] + "\t");
+                        x4.setText(elementos[i][4] + "\t");
+                        //
+                        //
+                        x6.setText(elementos[i][6] + "\t");
+                        x7.setText(elementos[i][7] + "\t");
+                        x8.setText(elementos[i][8] + "\t");
+                        x9.setText(elementos[i][9] + "\t");
+                        imagen.setImageResource(datosImg[i]);
+
+
+                    }
+
+
+                }
+
+            }
+        }
         //
         if (tabla_periodica.indetificador != null) {
 
