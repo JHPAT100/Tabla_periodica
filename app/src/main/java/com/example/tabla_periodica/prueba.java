@@ -302,6 +302,9 @@ public class prueba extends AppCompatActivity {
 
             R.drawable.merchel,R.drawable.nectarten,R.drawable.efelio,R.drawable.oberon
     };
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
