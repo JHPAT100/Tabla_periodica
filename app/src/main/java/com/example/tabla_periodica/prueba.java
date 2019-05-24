@@ -409,6 +409,7 @@ public class prueba extends AppCompatActivity {
             x8.setText(elementos[busqueda.posi][8] + "\t");
             x9.setText(elementos[busqueda.posi][9] + "\t");
             img.setImageResource(datosImg[busqueda.posi]);
+            busqueda.indetificador_1=null;
         }
 
 
