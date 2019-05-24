@@ -73,9 +73,15 @@ public class tabla_periodica extends AppCompatActivity
             startActivity(onClick_1);
 
         } else if (id == R.id.nav_b_1) {
+            Intent intent = new Intent(Intent.ACTION_SEND);
+            intent.setType("text/plain");
+            intent.putExtra(Intent.EXTRA_TEXT, "Instala Tabla_periodica app By System 32 https://www.facebook.com/jesus.JHAPT.3");
+            startActivity(Intent.createChooser(intent, "Share with"));
 
         } else if (id == R.id.nav_b_2) {
-
+            Intent emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto","sanhool@live.com.mx", null));
+            emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Tabla_App");
+            startActivity(Intent.createChooser(emailIntent,"Share email" ));
         } else if (id == R.id.nav_b_3) {
 
         } else if (id == R.id.nav_b_4) {

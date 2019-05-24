@@ -20,12 +20,8 @@ import java.util.ArrayList;
 
 public class busqueda extends AppCompatActivity {
     public static int pos;
-    public static Object o;
     private ListView lista;
     private adaptador Adaptador;
-    private EditText buscar;
-    ArrayAdapter<String> adapter;
-    public static String x_o;
     String elementos[][] = {
 //Nombre,descripción,simbolo,grupo,bloque,masa,protones,electrones,neutrones,valencia,
 
@@ -340,19 +336,7 @@ lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
         });
 
     }
-    public void onClick_3(View view){
-        Button xd=findViewById(view.getId());
-        Intent onClick_3=new Intent(this,prueba.class);
-        startActivity(onClick_3);
-EditText texto=findViewById(R.id.busqueda);
-x_o=texto.getText().toString();
-if(x_o!=null){
-    o=1;
-}
 
-
-
-    }
     }
 
 
