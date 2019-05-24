@@ -333,7 +333,24 @@ public class visorImagen extends AppCompatActivity {
                 for (int j = 0; j < elementos[i].length; j++) {//columnas
 
                         //manejador
-                        imagen.setImageResource(datosImg[busqueda.pos]);
+                        imagen.setImageResource(datosImg[lista.pos]);
+tabla_periodica.indetificador="1";
+
+
+
+
+                }
+
+            }
+        }
+        //
+        if (busqueda.indetificador_1 != null) {
+
+            for (int i = 0; i < elementos.length; i++) {//filas
+                for (int j = 0; j < elementos[i].length; j++) {//columnas
+
+                    //manejador
+                    imagen.setImageResource(datosImg[busqueda.posi]);
 
 
 
@@ -343,6 +360,8 @@ public class visorImagen extends AppCompatActivity {
 
             }
         }
+
+        //
 
 
     }

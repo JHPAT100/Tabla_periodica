@@ -8,6 +8,10 @@
             android:id="@+id/nav_b"
             android:icon="@drawable/icono_b"
             android:title="Busqueda" />
+        <item
+            android:id="@+id/nav_l"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="Lista elementos" />
 
     </group>
 

@@ -373,21 +373,46 @@ public class prueba extends AppCompatActivity {
 
 
         if (b != null) {
-            nombre.setText(elementos[busqueda.pos][0] + "\t");
-            x1.setText(elementos[busqueda.pos][5] + "\t");
-            x2.setText(elementos[busqueda.pos][2] + "\t");
-            x3.setText(elementos[busqueda.pos][3] + "\t");
-            x4.setText(elementos[busqueda.pos][4] + "\t");
+            nombre.setText(elementos[lista.pos][0] + "\t");
+            x1.setText(elementos[lista.pos][5] + "\t");
+            x2.setText(elementos[lista.pos][2] + "\t");
+            x3.setText(elementos[lista.pos][3] + "\t");
+            x4.setText(elementos[lista.pos][4] + "\t");
             //
             //
-            x6.setText(elementos[busqueda.pos][6] + "\t");
-            x7.setText(elementos[busqueda.pos][7] + "\t");
-            x8.setText(elementos[busqueda.pos][8] + "\t");
-            x9.setText(elementos[busqueda.pos][9] + "\t");
-            img.setImageResource(datosImg[busqueda.pos]);
+            x6.setText(elementos[lista.pos][6] + "\t");
+            x7.setText(elementos[lista.pos][7] + "\t");
+            x8.setText(elementos[lista.pos][8] + "\t");
+            x9.setText(elementos[lista.pos][9] + "\t");
+            img.setImageResource(datosImg[lista.pos]);
             tabla_periodica.indetificador=null;
 
         }
+
+        //
+
+
+
+
+
+
+        if (busqueda.indetificador_1!=null) {
+            nombre.setText(elementos[busqueda.posi][0] + "\t");
+            x1.setText(elementos[busqueda.posi][5] + "\t");
+            x2.setText(elementos[busqueda.posi][2] + "\t");
+            x3.setText(elementos[busqueda.posi][3] + "\t");
+            x4.setText(elementos[busqueda.posi][4] + "\t");
+            //
+            //
+            x6.setText(elementos[busqueda.posi][6] + "\t");
+            x7.setText(elementos[busqueda.posi][7] + "\t");
+            x8.setText(elementos[busqueda.posi][8] + "\t");
+            x9.setText(elementos[busqueda.posi][9] + "\t");
+            img.setImageResource(datosImg[busqueda.posi]);
+        }
+
+
+        //
 
     }
     public void onClick_2(View view){

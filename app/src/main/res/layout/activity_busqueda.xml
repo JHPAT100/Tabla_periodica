@@ -8,7 +8,7 @@
 
     <ListView
         android:id="@+id/lista_1"
-        android:layout_width="689dp"
+        android:layout_width="wrap_content"
         android:layout_height="305dp"
         android:layout_marginTop="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -20,7 +20,7 @@
 
     <EditText
         android:id="@+id/busqueda"
-        android:layout_width="500dp"
+        android:layout_width="0dp"
         android:layout_height="37dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
@@ -55,22 +55,6 @@
         app:layout_constraintVertical_bias="0.145"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="27dp"
-        android:layout_height="27dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/icono_b"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.87"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
 
 </android.support.constraint.ConstraintLayout>
 

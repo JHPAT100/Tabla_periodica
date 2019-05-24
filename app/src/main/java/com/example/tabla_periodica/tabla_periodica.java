@@ -71,6 +71,10 @@ public class tabla_periodica extends AppCompatActivity
 
             Intent onClick_1=new Intent(this,busqueda.class);
             startActivity(onClick_1);
+        } else if (id == R.id.nav_l) {
+            Intent onClick_2=new Intent(this,lista.class);
+            startActivity(onClick_2);
+
 
         } else if (id == R.id.nav_b_1) {
             Intent intent = new Intent(Intent.ACTION_SEND);

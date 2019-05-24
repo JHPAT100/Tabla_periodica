@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.tabla_periodica">
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -10,8 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".visorImagen"
-            android:screenOrientation="landscape"></activity>
+        <activity android:name=".lista"></activity>
+        <activity
+            android:name=".visorImagen"
+            android:screenOrientation="landscape" />
         <activity
             android:name=".tabla_periodica"
             android:label="@string/title_activity_tabla_periodica"
